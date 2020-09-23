@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<?php
+if( !session_id() ){
+	session_start();
+}
+require_once '../app/init.php';
+
+$app = new App;
+?>
+</body>
+</html>
